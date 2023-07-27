@@ -173,7 +173,7 @@ span.three {
   
  } 
   
- .nav-bar{ 
+ .nav-bars{ 
      /* width: 100%; */ 
      padding: 2rem; 
      display: flex; 
@@ -302,7 +302,7 @@ span.three {
      display: none; 
  } 
  @media screen and (max-width:600px) { 
-     .nav-bar{ 
+     .nav-bars{ 
          padding: 2rem 0; 
          display: flex; 
          justify-content: space-between; 
@@ -370,7 +370,7 @@ span.three {
      justify-content: space-between; 
      color: var(--card-color); 
  } 
- .card{ 
+ .cards{ 
      width: var(--card-width); 
      height: var(--card-height); 
      background-image: url(./img/blue.jpg); 
@@ -379,12 +379,12 @@ span.three {
      border-radius: var(--card-border-radius); 
  } 
   
- .card:nth-child(2){ 
+ .cards:nth-child(2){ 
   
      background-image: url(./img/yello.avif); 
  } 
   
- .card:last-child{ 
+ .cards:last-child{ 
      background-image: url(./img/pink.jpeg); 
  } 
   
@@ -427,7 +427,7 @@ span.three {
      font-size: 1rem; 
  } 
   
- .card p{ 
+ .cards p{ 
      margin-top: 0.5rem; 
      font-weight: bold; 
      font-size: 1.2rem; 
